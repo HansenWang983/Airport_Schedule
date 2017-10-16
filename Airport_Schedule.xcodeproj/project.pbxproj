@@ -6,15 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		96A050F71F8FBE5200D86D0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96A050F61F8FBE5200D86D0F /* main.cpp */; };
-		96F44C621F909D0E003EB23C /* Runway.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F44C601F909D0E003EB23C /* Runway.cpp */; };
-		96F44C651F909E58003EB23C /* Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F44C631F909E58003EB23C /* Plane.cpp */; };
-		96F44C6B1F90A877003EB23C /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F44C691F90A877003EB23C /* Random.cpp */; };
-		96F44C6E1F90B0F3003EB23C /* Extended_Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F44C6C1F90B0F3003EB23C /* Extended_Queue.cpp */; };
-		96F44C711F90B2F9003EB23C /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96F44C6F1F90B2F9003EB23C /* Queue.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		96A050F11F8FBE5200D86D0F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,18 +19,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		96A050F31F8FBE5200D86D0F /* Airport_Schedule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Airport_Schedule; sourceTree = BUILT_PRODUCTS_DIR; };
-		96A050F61F8FBE5200D86D0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		96F44C601F909D0E003EB23C /* Runway.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runway.cpp; sourceTree = "<group>"; };
-		96F44C611F909D0E003EB23C /* Runway.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Runway.hpp; sourceTree = "<group>"; };
-		96F44C631F909E58003EB23C /* Plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plane.cpp; sourceTree = "<group>"; };
-		96F44C641F909E58003EB23C /* Plane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Plane.hpp; sourceTree = "<group>"; };
-		96F44C691F90A877003EB23C /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
-		96F44C6A1F90A877003EB23C /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
-		96F44C6C1F90B0F3003EB23C /* Extended_Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extended_Queue.cpp; sourceTree = "<group>"; };
-		96F44C6D1F90B0F3003EB23C /* Extended_Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Extended_Queue.hpp; sourceTree = "<group>"; };
-		96F44C6F1F90B2F9003EB23C /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
-		96F44C701F90B2F9003EB23C /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		6052F95E1F948CFB00E95D3A /* source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = source; sourceTree = "<group>"; };
+		6052F95F1F948D0300E95D3A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		6052F9621F948EFF00E95D3A /* Airport_Schedule */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Airport_Schedule; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,35 +38,10 @@
 		96A050EA1F8FBE5200D86D0F = {
 			isa = PBXGroup;
 			children = (
-				96A050F51F8FBE5200D86D0F /* Airport_Schedule */,
-				96A050F41F8FBE5200D86D0F /* Products */,
+				6052F95F1F948D0300E95D3A /* include */,
+				6052F95E1F948CFB00E95D3A /* source */,
+				6052F9621F948EFF00E95D3A /* Airport_Schedule */,
 			);
-			sourceTree = "<group>";
-		};
-		96A050F41F8FBE5200D86D0F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				96A050F31F8FBE5200D86D0F /* Airport_Schedule */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		96A050F51F8FBE5200D86D0F /* Airport_Schedule */ = {
-			isa = PBXGroup;
-			children = (
-				96A050F61F8FBE5200D86D0F /* main.cpp */,
-				96F44C601F909D0E003EB23C /* Runway.cpp */,
-				96F44C611F909D0E003EB23C /* Runway.hpp */,
-				96F44C631F909E58003EB23C /* Plane.cpp */,
-				96F44C641F909E58003EB23C /* Plane.hpp */,
-				96F44C691F90A877003EB23C /* Random.cpp */,
-				96F44C6A1F90A877003EB23C /* Random.hpp */,
-				96F44C6C1F90B0F3003EB23C /* Extended_Queue.cpp */,
-				96F44C6D1F90B0F3003EB23C /* Extended_Queue.hpp */,
-				96F44C6F1F90B2F9003EB23C /* Queue.cpp */,
-				96F44C701F90B2F9003EB23C /* Queue.hpp */,
-			);
-			path = Airport_Schedule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +61,7 @@
 			);
 			name = Airport_Schedule;
 			productName = Airport_Schedule;
-			productReference = 96A050F31F8FBE5200D86D0F /* Airport_Schedule */;
+			productReference = 6052F9621F948EFF00E95D3A /* Airport_Schedule */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +87,7 @@
 				en,
 			);
 			mainGroup = 96A050EA1F8FBE5200D86D0F;
-			productRefGroup = 96A050F41F8FBE5200D86D0F /* Products */;
+			productRefGroup = 96A050EA1F8FBE5200D86D0F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -144,12 +101,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F44C6E1F90B0F3003EB23C /* Extended_Queue.cpp in Sources */,
-				96F44C651F909E58003EB23C /* Plane.cpp in Sources */,
-				96A050F71F8FBE5200D86D0F /* main.cpp in Sources */,
-				96F44C711F90B2F9003EB23C /* Queue.cpp in Sources */,
-				96F44C6B1F90A877003EB23C /* Random.cpp in Sources */,
-				96F44C621F909D0E003EB23C /* Runway.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +199,7 @@
 		96A050FB1F8FBE5200D86D0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
